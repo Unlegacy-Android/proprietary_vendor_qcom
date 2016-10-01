@@ -50,7 +50,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/flo/proprietary/firmware/vidc.mdt:system/etc/firmware/vidc.mdt:qcom \
     vendor/qcom/flo/proprietary/lib/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so:qcom \
     vendor/qcom/flo/proprietary/lib/flp.msm8960.so:system/lib/hw/flp.msm8960.so:qcom \
-    vendor/qcom/flo/proprietary/lib/gps.msm8960.so:system/lib/hw/gps.msm8960.so:qcom \
     vendor/qcom/flo/proprietary/lib/sensors.flo.so:system/lib/sensors.flo.so:qcom \
     vendor/qcom/flo/proprietary/lib/libaudcal.so:system/lib/libaudcal.so:qcom \
     vendor/qcom/flo/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so:qcom \
@@ -69,11 +68,8 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/flo/proprietary/lib/libdss.so:system/lib/libdss.so:qcom \
     vendor/qcom/flo/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so:qcom \
     vendor/qcom/flo/proprietary/lib/libdsutils.so:system/lib/libdsutils.so:qcom \
-    vendor/qcom/flo/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so:qcom \
     vendor/qcom/flo/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so:qcom \
     vendor/qcom/flo/proprietary/lib/libidl.so:system/lib/libidl.so:qcom \
-    vendor/qcom/flo/proprietary/lib/libloc_core.so:system/lib/libloc_core.so:qcom \
-    vendor/qcom/flo/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so:qcom \
     vendor/qcom/flo/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so:qcom \
     vendor/qcom/flo/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so:qcom \
     vendor/qcom/flo/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so:qcom \
