@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/mako/proprietary/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so:qcom \
     vendor/qcom/mako/proprietary/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so:qcom \
     vendor/qcom/mako/proprietary/flp.msm8960.so:system/lib/hw/flp.msm8960.so:qcom \
-    vendor/qcom/mako/proprietary/gps.msm8960.so:system/lib/hw/gps.msm8960.so:qcom \
     vendor/qcom/mako/proprietary/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so:qcom \
     vendor/qcom/mako/proprietary/libadreno_utils.so:system/vendor/lib/libadreno_utils.so:qcom \
     vendor/qcom/mako/proprietary/libaudcal.so:system/lib/libaudcal.so:qcom \
@@ -97,7 +96,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/mako/proprietary/libdsucsd.so:system/lib/libdsucsd.so:qcom \
     vendor/qcom/mako/proprietary/libdsutils.so:system/lib/libdsutils.so:qcom \
     vendor/qcom/mako/proprietary/libgemini.so:system/lib/libgemini.so:qcom \
-    vendor/qcom/mako/proprietary/libgps.utils.so:system/lib/libgps.utils.so:qcom \
     vendor/qcom/mako/proprietary/libgsl.so:system/vendor/lib/libgsl.so:qcom \
     vendor/qcom/mako/proprietary/libI420colorconvert.so:system/lib/libI420colorconvert.so:qcom \
     vendor/qcom/mako/proprietary/libidl.so:system/lib/libidl.so:qcom \
@@ -106,8 +104,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/mako/proprietary/libimage-omx-common.so:system/lib/libimage-omx-common.so:qcom \
     vendor/qcom/mako/proprietary/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so:qcom \
     vendor/qcom/mako/proprietary/libbccQTI.so:system/vendor/lib/libbccQTI.so:qcom \
-    vendor/qcom/mako/proprietary/libloc_core.so:system/lib/libloc_core.so:qcom \
-    vendor/qcom/mako/proprietary/libloc_eng.so:system/lib/libloc_eng.so:qcom \
     vendor/qcom/mako/proprietary/libmercury.so:system/lib/libmercury.so:qcom \
     vendor/qcom/mako/proprietary/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so:qcom \
     vendor/qcom/mako/proprietary/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so:qcom \
