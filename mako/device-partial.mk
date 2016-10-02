@@ -171,5 +171,11 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/mako/proprietary/libizat_core.so:system/vendor/lib/libizat_core.so:qcom \
     vendor/qcom/mako/proprietary/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so:qcom \
     vendor/qcom/mako/proprietary/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so:qcom \
+    vendor/qcom/mako/proprietary/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
+    vendor/qcom/mako/proprietary/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/qcom/mako/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/qcom/mako/proprietary/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/qcom/mako/proprietary/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/qcom/mako/proprietary/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
 PRODUCT_PACKAGES := libacdbloader
