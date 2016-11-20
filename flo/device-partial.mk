@@ -84,7 +84,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/flo/proprietary/libmmcamera_ov5693.so:system/lib/libmmcamera_ov5693.so:qcom \
     vendor/qcom/flo/proprietary/libmm-color-convertor.so:system/lib/libmm-color-convertor.so:qcom \
     vendor/qcom/flo/proprietary/libnetmgr.so:system/lib/libnetmgr.so:qcom \
-    vendor/qcom/flo/proprietary/liboemcrypto.so:system/lib/liboemcrypto.so:qcom \
     vendor/qcom/flo/proprietary/libqcci_legacy.so:system/lib/libqcci_legacy.so:qcom \
     vendor/qcom/flo/proprietary/libqdi.so:system/lib/libqdi.so:qcom \
     vendor/qcom/flo/proprietary/libqdp.so:system/lib/libqdp.so:qcom \
@@ -152,6 +151,7 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/flo/proprietary/wcnss.b05:system/vendor/firmware/wcnss.b05:qcom \
     vendor/qcom/flo/proprietary/wcnss.mdt:system/vendor/firmware/wcnss.mdt:qcom \
     vendor/qcom/flo/proprietary/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so:qcom \
+    vendor/qcom/flo/proprietary/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/qcom/flo/proprietary/libgemini.so:system/vendor/lib/libgemini.so:qcom \
     vendor/qcom/flo/proprietary/libgeofence.so:system/vendor/lib/libgeofence.so:qcom \
     vendor/qcom/flo/proprietary/libimage-jpeg-enc-omx-comp.so:system/vendor/lib/libimage-jpeg-enc-omx-comp.so:qcom \
@@ -177,6 +177,11 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/flo/proprietary/libmmstillomx.so:system/vendor/lib/libmmstillomx.so:qcom \
     vendor/qcom/flo/proprietary/liboemcamera.so:system/vendor/lib/liboemcamera.so:qcom \
     vendor/qcom/flo/proprietary/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so:qcom \
+    vendor/qcom/flo/proprietary/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/qcom/flo/proprietary/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/qcom/flo/proprietary/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/qcom/flo/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/qcom/flo/proprietary/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so
 
 PRODUCT_PACKAGES := libacdbloader tzapps.mdt
 
