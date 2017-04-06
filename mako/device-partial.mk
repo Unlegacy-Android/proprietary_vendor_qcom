@@ -154,13 +154,7 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/mako/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
-    vendor/qcom/mako/proprietary/vendor/lib/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/qcom/mako/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/qcom/mako/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/qcom/mako/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/qcom/mako/proprietary/vendor/lib/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/qcom/mako/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so:qcom
 
 PRODUCT_PACKAGES := libacdbloader
 
