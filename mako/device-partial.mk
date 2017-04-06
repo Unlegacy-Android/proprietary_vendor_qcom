@@ -78,7 +78,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/mako/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so:qcom \
@@ -108,7 +107,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/mako/proprietary/vendor/lib/libmmstillomx.so:system/vendor/lib/libmmstillomx.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so:qcom \
@@ -150,7 +148,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/mako/proprietary/vendor/firmware/wcnss.b04:system/vendor/firmware/wcnss.b04:qcom \
     vendor/qcom/mako/proprietary/vendor/firmware/wcnss.b05:system/vendor/firmware/wcnss.b05:qcom \
     vendor/qcom/mako/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so:qcom \
