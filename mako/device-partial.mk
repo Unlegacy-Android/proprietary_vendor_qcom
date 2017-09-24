@@ -14,30 +14,18 @@
 
 # Qualcomm blob(s) necessary for Mako hardware
 PRODUCT_COPY_FILES := \
-    vendor/qcom/mako/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon:qcom \
-    vendor/qcom/mako/proprietary/vendor/bin/bridgemgrd:system/vendor/bin/bridgemgrd:qcom \
-    vendor/qcom/mako/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool:qcom \
-    vendor/qcom/mako/proprietary/vendor/bin/diag_klog:system/vendor/bin/diag_klog:qcom \
-    vendor/qcom/mako/proprietary/vendor/bin/diag_mdlog:system/vendor/bin/diag_mdlog:qcom \
-    vendor/qcom/mako/proprietary/vendor/bin/ds_fmc_appd:system/vendor/bin/ds_fmc_appd:qcom \
     vendor/qcom/mako/proprietary/vendor/bin/efsks:system/vendor/bin/efsks:qcom \
     vendor/qcom/mako/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init:qcom \
     vendor/qcom/mako/proprietary/vendor/bin/ks:system/vendor/bin/ks:qcom \
     vendor/qcom/mako/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon:qcom \
     vendor/qcom/mako/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision:qcom \
     vendor/qcom/mako/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd:qcom \
-    vendor/qcom/mako/proprietary/vendor/bin/nl_listener:system/vendor/bin/nl_listener:qcom \
-    vendor/qcom/mako/proprietary/vendor/bin/port-bridge:system/vendor/bin/port-bridge:qcom \
     vendor/qcom/mako/proprietary/vendor/bin/qcks:system/vendor/bin/qcks:qcom \
     vendor/qcom/mako/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd:qcom \
     vendor/qcom/mako/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd:qcom \
-    vendor/qcom/mako/proprietary/vendor/bin/radish:system/vendor/bin/radish:qcom \
     vendor/qcom/mako/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage:qcom \
     vendor/qcom/mako/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom:qcom \
     vendor/qcom/mako/proprietary/vendor/bin/thermald:system/vendor/bin/thermald:qcom \
-    vendor/qcom/mako/proprietary/vendor/bin/usbhub:system/vendor/bin/usbhub:qcom \
-    vendor/qcom/mako/proprietary/vendor/bin/usbhub_init:system/vendor/bin/usbhub_init:qcom \
-    vendor/qcom/mako/proprietary/vendor/bin/v4l2-qcamera-app:system/vendor/bin/v4l2-qcamera-app:qcom \
     vendor/qcom/mako/proprietary/vendor/firmware/tzapps.b00:system/vendor/firmware/tzapps.b00:qcom \
     vendor/qcom/mako/proprietary/vendor/firmware/tzapps.b01:system/vendor/firmware/tzapps.b01:qcom \
     vendor/qcom/mako/proprietary/vendor/firmware/tzapps.b02:system/vendor/firmware/tzapps.b02:qcom \
@@ -49,41 +37,20 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/mako/proprietary/vendor/firmware/vidc.b02:system/vendor/firmware/vidc.b02:qcom \
     vendor/qcom/mako/proprietary/vendor/firmware/vidc.b03:system/vendor/firmware/vidc.b03:qcom \
     vendor/qcom/mako/proprietary/vendor/firmware/vidc.mdt:system/vendor/firmware/vidc.mdt:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/hw/flp.msm8960.so:system/vendor/lib/hw/flp.msm8960.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/hw/sensors.msm8960.so:system/vendor/lib/hw/sensors.msm8960.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libchromatix_imx111_default_video.so:system/vendor/lib/libchromatix_imx111_default_video.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libchromatix_imx111_preview.so:system/vendor/lib/libchromatix_imx111_preview.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libchromatix_imx111_zsl.so:system/vendor/lib/libchromatix_imx111_zsl.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libchromatix_imx119_default_video.so:system/vendor/lib/libchromatix_imx119_default_video.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libchromatix_imx119_preview.so:system/vendor/lib/libchromatix_imx119_preview.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libchromatix_mt9e013_default_video.so:system/vendor/lib/libchromatix_mt9e013_default_video.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libchromatix_mt9e013_preview.so:system/vendor/lib/libchromatix_mt9e013_preview.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libchromatix_mt9e013_video_hfr.so:system/vendor/lib/libchromatix_mt9e013_video_hfr.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libchromatix_ov5647_default_video.so:system/vendor/lib/libchromatix_ov5647_default_video.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libchromatix_ov5647_preview.so:system/vendor/lib/libchromatix_ov5647_preview.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libchromatix_ov5647_video_hfr.so:system/vendor/lib/libchromatix_ov5647_video_hfr.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libchromatix_ov8825_default_video.so:system/vendor/lib/libchromatix_ov8825_default_video.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libchromatix_ov8825_preview.so:system/vendor/lib/libchromatix_ov8825_preview.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libchromatix_ov9726_default_video.so:system/vendor/lib/libchromatix_ov9726_default_video.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libchromatix_ov9726_preview.so:system/vendor/lib/libchromatix_ov9726_preview.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libchromatix_s5k4e1_default_video.so:system/vendor/lib/libchromatix_s5k4e1_default_video.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libchromatix_s5k4e1_preview.so:system/vendor/lib/libchromatix_s5k4e1_preview.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libchromatix_vx6953_default_video.so:system/vendor/lib/libchromatix_vx6953_default_video.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libchromatix_vx6953_preview.so:system/vendor/lib/libchromatix_vx6953_preview.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libdsprofile.so:system/vendor/lib/libdsprofile.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libdss.so:system/vendor/lib/libdss.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libdsucsd.so:system/vendor/lib/libdsucsd.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libgemini.so:system/vendor/lib/libgemini.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so:qcom \
@@ -99,9 +66,7 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/mako/proprietary/vendor/lib/libmmcamera_statsproc31.so:system/vendor/lib/libmmcamera_statsproc31.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libmmjps.so:system/vendor/lib/libmmjps.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libmmmpod.so:system/vendor/lib/libmmmpod.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libmmmpo.so:system/vendor/lib/libmmmpo.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libmmstillomx.so:system/vendor/lib/libmmstillomx.so:qcom \
@@ -114,7 +79,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/mako/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so:qcom \
@@ -123,9 +87,7 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/mako/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libstagefright_hdcp.so:system/vendor/lib/libstagefright_hdcp.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so:qcom \
     vendor/qcom/mako/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw:qcom \
     vendor/qcom/mako/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw:qcom \
     vendor/qcom/mako/proprietary/vendor/firmware/dsps.b00:system/vendor/firmware/dsps.b00:qcom \
