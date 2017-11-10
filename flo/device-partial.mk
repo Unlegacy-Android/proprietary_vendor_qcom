@@ -64,7 +64,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/flo/proprietary/libconfigdb.so:system/lib/libconfigdb.so:qcom \
     vendor/qcom/flo/proprietary/libcsd-client.so:system/lib/libcsd-client.so:qcom \
     vendor/qcom/flo/proprietary/libdiag.so:system/lib/libdiag.so:qcom \
-    vendor/qcom/flo/proprietary/libdrmdiag.so:system/lib/libdrmdiag.so:qcom \
     vendor/qcom/flo/proprietary/libdrmfs.so:system/lib/libdrmfs.so:qcom \
     vendor/qcom/flo/proprietary/libdrmtime.so:system/lib/libdrmtime.so:qcom \
     vendor/qcom/flo/proprietary/libdsi_netctrl.so:system/lib/libdsi_netctrl.so:qcom \
@@ -150,8 +149,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/flo/proprietary/wcnss.b04:system/vendor/firmware/wcnss.b04:qcom \
     vendor/qcom/flo/proprietary/wcnss.b05:system/vendor/firmware/wcnss.b05:qcom \
     vendor/qcom/flo/proprietary/wcnss.mdt:system/vendor/firmware/wcnss.mdt:qcom \
-    vendor/qcom/flo/proprietary/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so:qcom \
-    vendor/qcom/flo/proprietary/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/qcom/flo/proprietary/libgemini.so:system/vendor/lib/libgemini.so:qcom \
     vendor/qcom/flo/proprietary/libgeofence.so:system/vendor/lib/libgeofence.so:qcom \
     vendor/qcom/flo/proprietary/libimage-jpeg-enc-omx-comp.so:system/vendor/lib/libimage-jpeg-enc-omx-comp.so:qcom \
@@ -176,12 +173,7 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/flo/proprietary/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so:qcom \
     vendor/qcom/flo/proprietary/libmmstillomx.so:system/vendor/lib/libmmstillomx.so:qcom \
     vendor/qcom/flo/proprietary/liboemcamera.so:system/vendor/lib/liboemcamera.so:qcom \
-    vendor/qcom/flo/proprietary/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so:qcom \
-    vendor/qcom/flo/proprietary/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/qcom/flo/proprietary/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/qcom/flo/proprietary/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/qcom/flo/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/qcom/flo/proprietary/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so
+    vendor/qcom/flo/proprietary/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so:qcom
 
 PRODUCT_PACKAGES := libacdbloader tzapps.mdt
 
