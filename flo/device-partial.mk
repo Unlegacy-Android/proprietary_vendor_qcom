@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/flo/proprietary/thermald:system/bin/thermald:qcom \
     vendor/qcom/flo/proprietary/usbhub:system/bin/usbhub:qcom \
     vendor/qcom/flo/proprietary/usbhub_init:system/bin/usbhub_init:qcom \
-    vendor/qcom/flo/proprietary/DxHDCP.cfg:system/etc/DxHDCP.cfg:qcom \
     vendor/qcom/flo/proprietary/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw:qcom \
     vendor/qcom/flo/proprietary/vidc.b00:system/etc/firmware/vidc.b00:qcom \
     vendor/qcom/flo/proprietary/vidc.b01:system/etc/firmware/vidc.b01:qcom \
@@ -49,7 +48,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/flo/proprietary/vidc.b03:system/etc/firmware/vidc.b03:qcom \
     vendor/qcom/flo/proprietary/vidcfw.elf:system/etc/firmware/vidcfw.elf:qcom \
     vendor/qcom/flo/proprietary/vidc.mdt:system/etc/firmware/vidc.mdt:qcom \
-    vendor/qcom/flo/proprietary/gps.conf:system/etc/gps.conf:qcom \
     vendor/qcom/flo/proprietary/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so:qcom \
     vendor/qcom/flo/proprietary/flp.msm8960.so:system/lib/hw/flp.msm8960.so:qcom \
     vendor/qcom/flo/proprietary/gps.msm8960.so:system/lib/hw/gps.msm8960.so:qcom \
