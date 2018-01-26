@@ -51,7 +51,7 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/flo/proprietary/lib/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so:qcom \
     vendor/qcom/flo/proprietary/lib/flp.msm8960.so:system/lib/hw/flp.msm8960.so:qcom \
     vendor/qcom/flo/proprietary/lib/gps.msm8960.so:system/lib/hw/gps.msm8960.so:qcom \
-    vendor/qcom/flo/proprietary/lib/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so:qcom \
+    vendor/qcom/flo/proprietary/lib/sensors.flo.so:system/lib/sensors.flo.so:qcom \
     vendor/qcom/flo/proprietary/lib/libaudcal.so:system/lib/libaudcal.so:qcom \
     vendor/qcom/flo/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so:qcom \
     vendor/qcom/flo/proprietary/lib/libc2d30.so:system/vendor/lib/libc2d30.so:qcom \
