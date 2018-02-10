@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/mako/proprietary/vendor/firmware/vidc.mdt:system/vendor/firmware/vidc.mdt:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/hw/flp.msm8960.so:system/vendor/lib/hw/flp.msm8960.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libchromatix_imx111_default_video.so:system/vendor/lib/libchromatix_imx111_default_video.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libchromatix_imx111_preview.so:system/vendor/lib/libchromatix_imx111_preview.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libchromatix_imx111_zsl.so:system/vendor/lib/libchromatix_imx111_zsl.so:qcom \
@@ -52,7 +51,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/mako/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libgemini.so:system/vendor/lib/libgemini.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libimage-jpeg-dec-omx-comp.so:system/vendor/lib/libimage-jpeg-dec-omx-comp.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libimage-jpeg-enc-omx-comp.so:system/vendor/lib/libimage-jpeg-enc-omx-comp.so:qcom \
@@ -64,7 +62,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/mako/proprietary/vendor/lib/libmmcamera_image_stab.so:system/vendor/lib/libmmcamera_image_stab.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libmmcamera_statsproc31.so:system/vendor/lib/libmmcamera_statsproc31.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so:qcom \
-    vendor/qcom/mako/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libmmmpod.so:system/vendor/lib/libmmmpod.so:qcom \
     vendor/qcom/mako/proprietary/vendor/lib/libmmmpo.so:system/vendor/lib/libmmmpo.so:qcom \
