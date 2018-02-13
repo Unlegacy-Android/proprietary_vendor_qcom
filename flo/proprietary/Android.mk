@@ -18,10 +18,10 @@ ifeq ($(TARGET_DEVICE),flo)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libacdbloader
-LOCAL_SRC_FILES := lib/libacdbloader.so
+LOCAL_SRC_FILES := vendor/lib/libacdbloader.so
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_OWNER := qcom
 
@@ -39,7 +39,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := tzapps.mdt
 LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := firmware/tzapps.mdt
+LOCAL_SRC_FILES := vendor/firmware/tzapps.mdt
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
