@@ -71,6 +71,7 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/flo/proprietary/libdss.so:system/lib/libdss.so:qcom \
     vendor/qcom/flo/proprietary/libdsucsd.so:system/lib/libdsucsd.so:qcom \
     vendor/qcom/flo/proprietary/libdsutils.so:system/lib/libdsutils.so:qcom \
+    vendor/qcom/flo/proprietary/libDxHdcp.so:system/lib/libDxHdcp.so:qcom \
     vendor/qcom/flo/proprietary/libgps.utils.so:system/lib/libgps.utils.so:qcom \
     vendor/qcom/flo/proprietary/libI420colorconvert.so:system/lib/libI420colorconvert.so:qcom \
     vendor/qcom/flo/proprietary/libidl.so:system/lib/libidl.so:qcom \
