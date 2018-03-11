@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/flo/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so:qcom \
     vendor/qcom/flo/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so:qcom \
     vendor/qcom/flo/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so:qcom \
+    vendor/qcom/flo/proprietary/vendor/lib/libDxHdcp.so:system/vendor/lib/libDxHdcp.so:qcom \
     vendor/qcom/flo/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so:qcom \
     vendor/qcom/flo/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so:qcom \
     vendor/qcom/flo/proprietary/vendor/lib/libmmcamera_image_stab.so:system/vendor/lib/libmmcamera_image_stab.so:qcom \
