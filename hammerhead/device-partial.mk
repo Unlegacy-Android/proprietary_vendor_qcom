@@ -40,7 +40,6 @@ PRODUCT_COPY_FILES := \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/hw/flp.msm8974.so:system/lib/hw/flp.msm8974.so:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libchromatix_imx179_common.so:system/lib/libchromatix_imx179_common.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libchromatix_imx179_default_video.so:system/lib/libchromatix_imx179_default_video.so:qcom \
@@ -52,10 +51,7 @@ PRODUCT_COPY_FILES := \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libchromatix_mt9m114b_snapshot.so:system/lib/libchromatix_mt9m114b_snapshot.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libloc_core.so:system/lib/libloc_core.so:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so:qcom \
