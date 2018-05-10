@@ -16,31 +16,21 @@ VENDOR_QCOM_PATH ?= vendor/qcom
 
 # Qualcomm blob(s) necessary for Hammerhead hardware
 PRODUCT_COPY_FILES := \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/bin/bridgemgrd:system/bin/bridgemgrd:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/bin/diag_klog:system/bin/diag_klog:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/bin/diag_mdlog:system/bin/diag_mdlog:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/bin/irsc_util:system/bin/irsc_util:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/bin/mpdecision:system/bin/mpdecision:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/bin/netmgrd:system/bin/netmgrd:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/bin/nl_listener:system/bin/nl_listener:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/bin/port-bridge:system/bin/port-bridge:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/bin/qmuxd:system/bin/qmuxd:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/bin/qseecomd:system/bin/qseecomd:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/bin/radish:system/bin/radish:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/bin/rmt_storage:system/bin/rmt_storage:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/bin/sensors.qcom:system/bin/sensors.qcom:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/bin/thermal-engine-hh:system/bin/thermal-engine-hh:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/bin/time_daemon:system/bin/time_daemon:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/bin/usbhub:system/bin/usbhub:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/bin/usbhub_init:system/bin/usbhub_init:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/hw/flp.msm8974.so:system/lib/hw/flp.msm8974.so:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libchromatix_imx179_common.so:system/lib/libchromatix_imx179_common.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libchromatix_imx179_default_video.so:system/lib/libchromatix_imx179_default_video.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libchromatix_imx179_preview.so:system/lib/libchromatix_imx179_preview.so:qcom \
@@ -51,15 +41,11 @@ PRODUCT_COPY_FILES := \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libchromatix_mt9m114b_snapshot.so:system/lib/libchromatix_mt9m114b_snapshot.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libmmcamera_imx179.so:system/lib/libmmcamera_imx179.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libmmcamera_mt9m114b.so:system/lib/libmmcamera_mt9m114b.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libmmQSM.so:system/lib/libmmQSM.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/lib/librpmb.so:system/lib/librpmb.so:qcom \
@@ -97,13 +83,10 @@ PRODUCT_COPY_FILES := \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libDxHdcp.so:system/vendor/lib/libDxHdcp.so:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libFuzzmmstillomxenc.so:system/vendor/lib/libFuzzmmstillomxenc.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so:qcom \
@@ -126,7 +109,6 @@ PRODUCT_COPY_FILES := \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libmmcamera_imx179_eeprom.so:system/vendor/lib/libmmcamera_imx179_eeprom.so:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so:qcom \
@@ -145,13 +127,9 @@ PRODUCT_COPY_FILES := \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so:qcom \
     $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libvdmengine.so:system/vendor/lib/libvdmengine.so:qcom \
-    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libvdmfumo.so:system/vendor/lib/libvdmfumo.so:qcom
+    $(VENDOR_QCOM_PATH)/hammerhead/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so:qcom
 
 PRODUCT_PACKAGES := libacdbloader
 
