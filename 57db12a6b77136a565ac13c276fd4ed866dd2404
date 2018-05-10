@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e32aba1a_2e381048",
+        "filename": "hammerhead/device-partial.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2018-05-10T16:47:21Z",
+      "side": 1,
+      "message": "always use +\u003d; this can very easily cause issues",
+      "range": {
+        "startLine": 160,
+        "startChar": 17,
+        "endLine": 160,
+        "endChar": 19
+      },
+      "revId": "57db12a6b77136a565ac13c276fd4ed866dd2404",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
+    }
+  ]
+}
