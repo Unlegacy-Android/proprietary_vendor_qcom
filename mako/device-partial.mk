@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/mako/proprietary/vendor/bin/qcks:system/vendor/bin/qcks:qcom \
     vendor/qcom/mako/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd:qcom \
     vendor/qcom/mako/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd:qcom \
-    vendor/qcom/mako/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage:qcom \
     vendor/qcom/mako/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom:qcom \
     vendor/qcom/mako/proprietary/vendor/bin/thermald:system/vendor/bin/thermald:qcom \
     vendor/qcom/mako/proprietary/vendor/firmware/tzapps.b00:system/vendor/firmware/tzapps.b00:qcom \
