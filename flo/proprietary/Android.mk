@@ -21,7 +21,7 @@ LOCAL_MODULE := libacdbloader
 LOCAL_SRC_FILES := vendor/lib/libacdbloader.so
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_OWNER := qcom
 
@@ -45,11 +45,11 @@ LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
 LOCAL_POST_INSTALL_CMD := \
         mkdir -p $(TARGET_OUT)/etc/firmware/; \
-        ln -sf /system/vendor/firmware/tzapps.b00 $(TARGET_OUT)/etc/firmware/tzapps.b00; \
-        ln -sf /system/vendor/firmware/tzapps.b01 $(TARGET_OUT)/etc/firmware/tzapps.b01; \
-        ln -sf /system/vendor/firmware/tzapps.b02 $(TARGET_OUT)/etc/firmware/tzapps.b02; \
-        ln -sf /system/vendor/firmware/tzapps.b03 $(TARGET_OUT)/etc/firmware/tzapps.b03; \
-        ln -sf /system/vendor/firmware/tzapps.mdt $(TARGET_OUT)/etc/firmware/tzapps.mdt;
+        ln -sf /$(TARGET_OUT_VENDOR)/firmware/tzapps.b00 $(TARGET_OUT)/etc/firmware/tzapps.b00; \
+        ln -sf /$(TARGET_OUT_VENDOR)/firmware/tzapps.b01 $(TARGET_OUT)/etc/firmware/tzapps.b01; \
+        ln -sf /$(TARGET_OUT_VENDOR)/firmware/tzapps.b02 $(TARGET_OUT)/etc/firmware/tzapps.b02; \
+        ln -sf /$(TARGET_OUT_VENDOR)/firmware/tzapps.b03 $(TARGET_OUT)/etc/firmware/tzapps.b03; \
+        ln -sf /$(TARGET_OUT_VENDOR)/firmware/tzapps.mdt $(TARGET_OUT)/etc/firmware/tzapps.mdt;
 include $(BUILD_PREBUILT)
 
 endif
