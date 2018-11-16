@@ -14,12 +14,12 @@
 
 # Qualcomm blob(s) necessary for Deb hardware
 PRODUCT_COPY_FILES := \
-    vendor/qcom/deb/proprietary/vendor/bin/efsks:system/vendor/bin/efsks:qcom \
-    vendor/qcom/deb/proprietary/vendor/bin/ks:system/vendor/bin/ks:qcom \
-    vendor/qcom/deb/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd:qcom \
-    vendor/qcom/deb/proprietary/vendor/bin/qcks:system/vendor/bin/qcks:qcom \
-    vendor/qcom/deb/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd:qcom \
-    vendor/qcom/deb/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so:qcom \
-    vendor/qcom/deb/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so:qcom \
-    vendor/qcom/deb/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so:qcom \
-    vendor/qcom/deb/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so:qcom
+    vendor/qcom/deb/proprietary/vendor/bin/efsks:$(TARGET_COPY_OUT_VENDOR)/bin/efsks:qcom \
+    vendor/qcom/deb/proprietary/vendor/bin/ks:$(TARGET_COPY_OUT_VENDOR)/bin/ks:qcom \
+    vendor/qcom/deb/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd:qcom \
+    vendor/qcom/deb/proprietary/vendor/bin/qcks:$(TARGET_COPY_OUT_VENDOR)/bin/qcks:qcom \
+    vendor/qcom/deb/proprietary/vendor/bin/qmuxd:$(TARGET_COPY_OUT_VENDOR)/bin/qmuxd:qcom \
+    vendor/qcom/deb/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so:qcom \
+    vendor/qcom/deb/proprietary/vendor/lib/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdp.so:qcom \
+    vendor/qcom/deb/proprietary/vendor/lib/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-qmi-1.so:qcom \
+    vendor/qcom/deb/proprietary/vendor/lib/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qcril-hook-oem.so:qcom
